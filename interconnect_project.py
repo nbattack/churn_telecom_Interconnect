@@ -29,8 +29,8 @@ from IPython.display import display, HTML
 
 
 #cargamos los datasets
-df_contract = pd.read_csv('/home/nick/datasets/contract.csv')
-df_personal = pd.read_csv('/home/nick/datasets/personal.csv')
+df_contract = pd.read_csv('/home/nick/datasets/contract.csv') # TODO No ocupes rutas absolutas, sino que rutas relativas. Yo no tengo una carpeta llemada `nick`. 
+df_personal = pd.read_csv('/home/nick/datasets/personal.csv') # TODO Además, es bueno que mantengas la estructura de carpetas de tu proyecto y comitees algunos READMEs o .gitkeep en carpetas, para que al clonar el repo de 0, esas carpetas ya estén creadas
 df_internet = pd.read_csv('/home/nick/datasets/internet.csv')
 df_phone = pd.read_csv('/home/nick/datasets/phone.csv')
 
